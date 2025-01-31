@@ -14,9 +14,26 @@ function addFriend()   {
     }
     //Vuelve a null el valor para dejarlo en blanco 
     document.getElementById('amigo').value=null;
-
     //pruebas
     console.log(name_array);
+    showFriendsList();
     return;
 }
 
+function showFriendsList()  {
+    clearElement('listaAmigos');
+    for(i=0;i<name_array.length;i++)    {
+        let newLi=document.createElement('li');
+        let content=document.createTextNode(name_array[i]);
+        let selectElement= document.getElementById('listaAmigos');
+        newLi.appendChild(content);
+        selectElement.appendChild(newLi);
+    }
+    return;
+}
+
+function clearElement(elementID)    {
+    let selectElement=document.getElementById(elementID);
+    selectElement.innerHTML="";
+    return;
+}
