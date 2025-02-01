@@ -13,4 +13,4 @@ How to play:<br>
 <li>If the game works correctly, under you can see the name of your friend and consecuently whit the other names added.</li>
 <li>Press the button "Sortear Amigo", and the game will show you randomly one of the names of your friend's.</li>
 </ol>
-<br>EndNotes:If you press the button "Sortear Amigo" whitout added any friend's name, another alert will appear.
+<br>EndNotes:If you press the button "Sortear Amigo" whitout added any name, another alert will appear.
