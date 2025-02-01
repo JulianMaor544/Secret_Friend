@@ -13,9 +13,6 @@ function addFriend()   {
     }
     //Vuelve a null el valor para dejarlo en blanco 
     document.getElementById('amigo').value=null;
-    //pruebas
-    console.log(name_array.length);
-    console.log(name_array);
     showFriendsList();
     return;
 }
@@ -47,4 +44,5 @@ function drawFriend()   {
     }else   {
         addFriend();
     }
+    return;
 }
